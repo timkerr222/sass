@@ -1,0 +1,17 @@
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #2196F3; /* Blue background */
+    color: white; /* White text */
+}
+/* Sidebar element containers*/
+
+[data-testid="stSidebar"] [data-testid="stVerticalBlock"]{
+    background: transparent;
+    color: white; /* White text */
+}
+[data-testid="stSidebar"] label, [data-testid="stSidebar"] label > div{
+    color:white;
+}
+
+

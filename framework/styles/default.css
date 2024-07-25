@@ -1,0 +1,49 @@
+[data-testid="stSidebar"] {
+    display:relative;
+}
+[data-testid="baseButton-header"]{
+    display: none;
+}
+footer{
+    display:none;
+}
+/* Target the radio group with the aria-label "Hello" */
+[data-testid="stSidebarUserContent"] [role="radiogroup"][aria-label="Hello"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; /* Change background color as needed */
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: adds a border at the bottom */
+    float:inline-end;
+}
+
+[data-testid="stSidebarUserContent"] [role="radiogroup"][aria-label="Hello"] label{
+    float:left;
+}
+/* Hide the input elements (radio buttons) */
+[data-testid="stSidebarUserContent"] [role="radiogroup"][aria-label="Hello"] label[data-baseweb="radio"] > div:first-of-type {
+    display: none;
+}
+
+/* Highlight the div containing the checked radio input */
+[data-testid="stSidebarUserContent"] [role="radiogroup"][aria-label="Hello"]  label[data-baseweb="radio"] input[type="radio"]:checked ~ div {
+   text-decoration: underline;
+   font-weight: 900;
+   letter-spacing: -1px;
+}
+
+/* Style the labels */
+[data-testid="stSidebarUserContent"] [role="radiogroup"][aria-label="Hello"] label {
+    cursor: pointer;
+    font-weight: bold; /* Optional: makes the labels bold */
+    padding: 10px;
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+
+[data-testid="stSidebarUserContent"] [role="radiogroup"][aria-label="Hello"] label:hover {
+    background-color: #f0f0f0; /* Optional: adds hover effect */
+}

@@ -1,0 +1,49 @@
+routes:
+  - name: Login
+    path: authpages.login
+    auth_required: false
+    roles: []
+    show_nav_when_authenticated: false
+    nav_icon: ✓
+
+  - name: Profile
+    path: authpages.profile
+    auth_required: false
+    roles: []
+    show_nav_when_authenticated: true
+    nav_icon: 🚀
+
+  - name: Register
+    path: authpages.register
+    auth_required: true
+    roles: []
+    show_nav_when_authenticated: true
+
+  - name: Manage
+    path: authpages.manage
+    auth_required: true
+    roles: []
+    show_nav_when_authenticated: true
+
+  - name: RxTrail
+    path: custpages.company
+    auth_required: false
+    roles: []
+    show_nav_when_authenticated: true
+    nav_icon: 🔥
+
+  - name: Custom App
+    path: custpages.example
+    auth_required: true
+    roles: []
+    show_nav_when_authenticated: true
+    nav_icon: 🌍
+    
+  - name: Logout
+    path: authpages.logout
+    auth_required: true
+    roles: []
+    show_nav_when_authenticated: true
+    nav_icon: ✗
+
+ 

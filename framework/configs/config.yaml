@@ -1,0 +1,179 @@
+application_configs:
+  page_title: "Custom Streamlit App"
+  layout: "wide"  # Options are "centered" or "wide"
+  sidebar: "collapsed"
+  styles: 
+    - examples/rightsidebar #puts the sidebar on the right instead of the left.
+    - default
+    - examples/montserratfont
+    - thiscssdoesnotexist
+  logo:
+    file: "ice.png"
+    width: 60
+    alt: "Company Logo"
+    use_container_width: false
+  hide_streamlit_toolbar: true
+
+credentials:
+  usernames:
+    sarahkerr:
+      account_2fa_confirmed: true
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: sarah@rxtrail.org
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      is_deleted: true
+      name: Sarah
+      password: $2b$12$obs0u3K6oolO3lyjso10/OMVakJdCexD.FDuMc6GYaTMr6dCNr8yi
+      password_history:
+      - $2b$12$obs0u3K6oolO3lyjso10/OMVakJdCexD.FDuMc6GYaTMr6dCNr8yi
+      password_last_changed: '2024-07-19T17:47:46.045017'
+      phone: '312888888888'
+      secret: YL4EFNMOFBLP6MERREF2YT7CSRN5G5XD
+    timkerr222:
+      account_2fa_confirmed: true
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: timkerr222@gmail.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim Kerr
+      password: $2b$12$YUcF2sHUYVc6/4ZkKGndIuGhzRo7lXkX7PkxecUvqVy.hbsaHpU9a
+      password_history:
+      - $2b$12$pDTT3CYoDfY8BkYJGoZHQ.PR7w34CBByEBP6xokvneEgDJ1FWsbMm
+      - $2b$12$qtzlym9lwab.Q9M3OBsxWulhDj8hoeMoTs33m1kLDG1u9C302tiNa
+      - $2b$12$UR6EzzzhbV4qnrHorGLrUemlQ.qSyn.mjCaHYA4yjM7PQCfebAmV2
+      - $2b$12$YUcF2sHUYVc6/4ZkKGndIuGhzRo7lXkX7PkxecUvqVy.hbsaHpU9a
+      password_last_changed: '2024-07-19T18:42:38.100491'
+      phone: '3169939397'
+      secret: CFBFDLIXBRMQFTGS2SL5QX76UKSDV4M3
+    timkerr2223:
+      account_2fa_confirmed: false
+      account_confirmed: false
+      confirmation_code: $2b$12$Oluhmj7Aqjshxpl/d9lzPODQ/bhXXHWRKfHlPRm1W4VtWaIQEc6ua
+      confirmation_expiry: '2024-07-19T19:29:22.316897'
+      email: timkerr2223@gmail.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim Kerr
+      password: $2b$12$VoTxArj1e027yoLSUbwYyeCH3L2mErmYlfB2puVxZkuUKxVl5HBHe
+      password_history:
+      - $2b$12$VoTxArj1e027yoLSUbwYyeCH3L2mErmYlfB2puVxZkuUKxVl5HBHe
+      phone: 3169939397x
+      secret: null
+    timkerr222333:
+      account_2fa_confirmed: true
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: tim2@tim.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim Kerr
+      password: $2b$12$.l1KfIYRUNn1vga7jd6CF.2AeO1dTcNl3JVjgp93e7GgJ5bdEDv1K
+      password_history:
+      - $2b$12$C.ey2/pbOKAyudt/lIS8WuLztaeSetuxYt4SDda5UBdh6WUJq1FTK
+      - $2b$12$.l1KfIYRUNn1vga7jd6CF.2AeO1dTcNl3JVjgp93e7GgJ5bdEDv1K
+      password_last_changed: '2024-07-19T20:22:32.270630'
+      phone: '313352325325'
+      secret: Z3ENVLIJH5TPXQLCKW6BATIO7SUVVMPK
+    timkerr222atgma:
+      account_2fa_confirmed: true
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: timkerr@gmail.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim Kerr
+      password: $2b$12$5x1pevl55lhPd0M99ggsSOb672Pt9FjjNtbCZEvkhLDpFzE01Udvq
+      password_history:
+      - $2b$12$BUtDc6JKm28o7BSwwsuGzeUphSfM93QAulxSf51I2CCu7ft4vrORq
+      - $2b$12$c3YZxjL9kliHsOgeyAEwFuv1b.GWQiPpHpIvs7OaZe17GPLL0Ivhi
+      - $2b$12$5x1pevl55lhPd0M99ggsSOb672Pt9FjjNtbCZEvkhLDpFzE01Udvq
+      password_last_changed: '2024-07-24T02:32:38.790141'
+      phone: '3169939393'
+      secret: ZVFWYISTZWUDCJ27M7ZM6YYKYDSOTQGS
+    timmykerr:
+      account_2fa_confirmed: false
+      account_confirmed: false
+      confirmation_code: $2b$12$TlN.blp5UtINIP1r.Oqbrurt1dlBTaqSWEsd4RfzZc7Xs34VfnLG6
+      confirmation_expiry: '2024-07-19T19:29:26.108758'
+      email: t.f@6s.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: t
+      password: $2b$12$7ylp1ss53sEtybOo74BoFe3/pLrbBzb0Htyb/xTObuZJahLBOhKRq
+      password_history:
+      - $2b$12$lkUAvedguQlRcvDu6rPNmevZmJTbOEYDD7fU8b/Z9tDbo5aepbnzC
+      - $2b$12$yxpyzi5rb9w.FzhgbUptk.RZGTalIkcu6pQbDTzzQyn0A11WwHWL6
+      - $2b$12$laN5WAhtaVt1fhDD5YA1f.CIA9S13mXRFSiJ69cNmTwGPWLEZgz42
+      - $2b$12$7ylp1ss53sEtybOo74BoFe3/pLrbBzb0Htyb/xTObuZJahLBOhKRq
+      password_last_changed: '2024-07-19T17:16:59.771742'
+      phone: '3169939398'
+      secret: null
+    timmykerrrr:
+      account_2fa_confirmed: true
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: t@tim.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim
+      password: $2b$12$CcCPjgWsZH/CDN/q1bU3T.LsEiFjTbRMTX1TzH4.GT7Z8nIqlxaHy
+      password_history:
+      - $2b$12$CcCPjgWsZH/CDN/q1bU3T.LsEiFjTbRMTX1TzH4.GT7Z8nIqlxaHy
+      password_last_changed: '2024-07-19T17:33:00.916722'
+      phone: '3168888888'
+      secret: 4UIHEDND5RPDS6KRO7YTKMWW5JKIISV5
+    timmyyyy:
+      account_2fa_confirmed: false
+      account_confirmed: false
+      confirmation_code: $2b$12$62E/FdALyZjcK58V6uq92urrvsL41naD8HyieLbMvN9U3TFrDiIKe
+      confirmation_expiry: '2024-07-19T19:04:52.314211'
+      email: ti@ty.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim
+      password: $2b$12$u.sJXc.X5jXAZRLnBYVF/.qeoPkOFNrc2FbLPCfbLzURTcjTkA17.
+      password_history:
+      - $2b$12$u.sJXc.X5jXAZRLnBYVF/.qeoPkOFNrc2FbLPCfbLzURTcjTkA17.
+      password_last_changed: '2024-07-19T16:39:32.891675'
+      phone: '31588877777'
+      secret: null
+    timothy:
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: tim@tim.com
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim
+      password: $2b$12$VCW/5tGjnHF8B47JhRo8COkKW8ixRyiAO30zCBnuqzc94mDdr6Rv6
+      password_history:
+      - $2b$12$VCW/5tGjnHF8B47JhRo8COkKW8ixRyiAO30zCBnuqzc94mDdr6Rv6
+      password_last_changed: '2024-07-19T15:22:14.066176'
+      phone: '3169939999'
+      secret: null
+    timothykerr:
+      account_2fa_confirmed: true
+      account_confirmed: true
+      confirmation_code: null
+      confirmation_expiry: null
+      email: tim@rxtrail.org
+      failed_confirmation_attempts: 0
+      failed_password_attempts: 0
+      name: Tim
+      password: $2b$12$VtBV8h3e.OT.sTEWoEtAYORNWYKRg7Vsr9KHUJ76WwDy9.qYfZ/sK
+      password_history:
+      - $2b$12$VtBV8h3e.OT.sTEWoEtAYORNWYKRg7Vsr9KHUJ76WwDy9.qYfZ/sK
+      password_last_changed: '2024-07-19T17:42:33.793515'
+      phone: '31444444444'
+      secret: 65D3LM67OOFKULZN5E3M5OHJUSZZEAMC
+preauthorized:
+  emails: []
+

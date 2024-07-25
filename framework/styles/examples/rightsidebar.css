@@ -1,0 +1,11 @@
+[data-testid="stSidebar"]{
+    left:calc(100% - 335px);
+}
+section.main{
+    margin-left: -335px;
+    width: calc(100% - 335px);
+}
+[data-testid="toastContainer"]{
+
+    z-index: 1000000;
+}

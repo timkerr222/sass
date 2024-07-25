@@ -1,0 +1,8 @@
+__pycache__
+.venv
+*.pyc
+gitpowerwash.sh
+repo-backup.bundle
+.streamlit/secrets.toml
+sensitivefile.txt
+removal_log.txt
